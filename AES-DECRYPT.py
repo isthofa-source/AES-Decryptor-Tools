@@ -9,8 +9,8 @@ def decrypt_aes_cbc(data, key, iv):
     return unpadded_data.decode('utf-8')
 
 encrypted_data = "cEIZL9HlDGNhLVrygqnXFg=="  # Data terenkripsi dalam bentuk Base64
-key = b'fastxcimbxactivo'  # Kunci enkripsi AES 128-bit (16 byte)
-iv = b'fastxcimbxactivo'  # Vektor inisialisasi (IV) 16-byte
+key = b'YOUR-KEY'  # Kunci enkripsi AES 128-bit (16 byte)
+iv = b'YOUR-IV'  # Vektor inisialisasi (IV) 16-byte
 
 encrypted_data = base64.b64decode(encrypted_data)
 
