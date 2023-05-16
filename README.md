@@ -5,6 +5,10 @@ Make sure you have installed the PyCryptodome library before running this script
 ```py
 pip install pycryptodome
 ```
+## Running Test
+```py
+python AES-DECRYPT.py
+```
 ## Description
 PyCryptodome library to **encrypt AES** in **CBC mode**. Then, I used **Crypto.Util.Padding** to remove the **PKCS7 padding** after decrypting the data. The decryption result will be converted into text format using UTF-8 decode before being displayed.
 
